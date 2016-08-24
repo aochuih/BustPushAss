@@ -652,7 +652,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="BustPushAss" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -950,6 +950,9 @@
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system" size="30"/>
                                                 </buttonCell>
+                                                <connections>
+                                                    <action selector="startTask:" target="XfG-lQ-9wD" id="JGP-UV-LaJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -1009,6 +1012,15 @@
                             <constraint firstItem="ExD-kF-ebd" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Qmm-Se-bsA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bundlerIDTextField" destination="rb5-XF-HE9" id="g8K-Ta-cfG"/>
+                        <outlet property="curlPathTextField" destination="Hwy-bC-9lF" id="qbo-1v-py3"/>
+                        <outlet property="outputText" destination="dnw-Ra-jW3" id="cog-CZ-CBe"/>
+                        <outlet property="payloadTextField" destination="DeI-Fp-EcI" id="f8G-Ko-HIW"/>
+                        <outlet property="pemPathTextField" destination="h5b-5o-c6F" id="15M-dc-WWV"/>
+                        <outlet property="sendButton" destination="dbY-lr-x49" id="J8c-pX-THu"/>
+                        <outlet property="tokenTextField" destination="mRn-Tc-i1E" id="7DY-Zs-BbP"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

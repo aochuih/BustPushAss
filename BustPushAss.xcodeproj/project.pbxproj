@@ -13,6 +13,7 @@
 		DA4761471D6C63840061D9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4761451D6C63840061D9A6 /* Main.storyboard */; };
 		DA4761521D6C63840061D9A6 /* BustPushAssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4761511D6C63840061D9A6 /* BustPushAssTests.swift */; };
 		DA47615D1D6C63840061D9A6 /* BustPushAssUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47615C1D6C63840061D9A6 /* BustPushAssUITests.swift */; };
+		DAA2E45F1D6DE0F800F284BA /* Script.command in Resources */ = {isa = PBXBuildFile; fileRef = DAA2E45E1D6DE0F800F284BA /* Script.command */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DA4761581D6C63840061D9A6 /* BustPushAssUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BustPushAssUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA47615C1D6C63840061D9A6 /* BustPushAssUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BustPushAssUITests.swift; sourceTree = "<group>"; };
 		DA47615E1D6C63840061D9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2E45E1D6DE0F800F284BA /* Script.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.command; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DA4761431D6C63840061D9A6 /* Assets.xcassets */,
 				DA4761451D6C63840061D9A6 /* Main.storyboard */,
 				DA4761481D6C63840061D9A6 /* Info.plist */,
+				DAA2E45E1D6DE0F800F284BA /* Script.command */,
 			);
 			path = BustPushAss;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				DA4761441D6C63840061D9A6 /* Assets.xcassets in Resources */,
 				DA4761471D6C63840061D9A6 /* Main.storyboard in Resources */,
+				DAA2E45F1D6DE0F800F284BA /* Script.command in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +479,7 @@
 				DA4761631D6C63840061D9A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA4761641D6C63840061D9A6 /* Build configuration list for PBXNativeTarget "BustPushAssTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				DA4761661D6C63840061D9A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA4761671D6C63840061D9A6 /* Build configuration list for PBXNativeTarget "BustPushAssUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				DA4761691D6C63840061D9A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
