@@ -688,7 +688,7 @@
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-bC-9lF">
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-bC-9lF" userLabel="curlPathTextField">
                                                 <rect key="frame" x="111" y="0.0" width="580" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="PFt-ZH-B0l"/>
@@ -729,7 +729,7 @@
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="h5b-5o-c6F">
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="h5b-5o-c6F" userLabel="pemTextField">
                                                 <rect key="frame" x="111" y="0.0" width="580" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="mMX-Za-XqK"/>
@@ -759,10 +759,10 @@
                                             <real value="3.4028234663852886e+38"/>
                                         </customSpacing>
                                     </stackView>
-                                    <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mzm-St-0LG" userLabel="bundleIDView">
+                                    <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mzm-St-0LG" userLabel="bundlerIDView">
                                         <rect key="frame" x="10" y="604" width="691" height="30"/>
                                         <subviews>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vyW-gI-NOp">
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vyW-gI-NOp" userLabel="bundlerID:">
                                                 <rect key="frame" x="-2" y="0.0" width="107" height="30"/>
                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="bundleID:" id="glo-c7-Ja8">
                                                     <font key="font" metaFont="system"/>
@@ -770,7 +770,7 @@
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rb5-XF-HE9">
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rb5-XF-HE9" userLabel="bundlerIDTextField">
                                                 <rect key="frame" x="111" y="0.0" width="580" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="4iU-ox-Qw7"/>
@@ -811,7 +811,7 @@
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mRn-Tc-i1E">
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mRn-Tc-i1E" userLabel="TokenTextField">
                                                 <rect key="frame" x="111" y="0.0" width="580" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="PJu-pj-zkA"/>
@@ -852,7 +852,7 @@
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DeI-Fp-EcI">
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DeI-Fp-EcI" userLabel="payloadTextField">
                                                 <rect key="frame" x="111" y="0.0" width="580" height="350"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="350" id="Ext-zy-RlF"/>
@@ -893,7 +893,7 @@
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
                                             </textField>
-                                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdL-hj-tNe">
+                                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdL-hj-tNe" userLabel="outputTextView">
                                                 <rect key="frame" x="111" y="0.0" width="580" height="200"/>
                                                 <clipView key="contentView" id="eYw-mi-E8U">
                                                     <rect key="frame" x="1" y="1" width="578" height="198"/>
