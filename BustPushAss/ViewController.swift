@@ -16,10 +16,13 @@ class ViewController: NSViewController {
     @IBOutlet var tokenTextField:NSTextField!
     @IBOutlet var payloadTextField:NSTextField!
     @IBOutlet var outputText:NSTextView!
+    @IBOutlet var envPopupButton:NSPopUpButton!
     @IBOutlet var sendButton:NSButton!
 
     var buildTask:NSTask!
     var outputPipe:NSPipe!
+    var devAddress:NSString = "api.development.push.apple.com"
+    var proAddress:NSString = "api.push.apple.com"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +50,7 @@ class ViewController: NSViewController {
         arguments.append(payloadTextField.stringValue)
         arguments.append(pemPathTextField.stringValue)
         arguments.append(bundlerIDTextField.stringValue)
+        arguments.append((envPopupButton.indexOfSelectedItem == 0 ? proAddress : devAddress) as String)
         arguments.append(tokenTextField.stringValue)
         
         runScript(arguments)
